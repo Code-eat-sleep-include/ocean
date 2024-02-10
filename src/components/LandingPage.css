@@ -1,0 +1,16 @@
+/* src/components/LandingPage.css */
+.landing-page {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5rem;
+    color: #3f51b5;
+  }
+  
+  .landing-page p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
