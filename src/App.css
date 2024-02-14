@@ -28,6 +28,11 @@
   color: #61dafb;
 }
 
+.parallax-section {
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.HowItWorks{
+  text-align: center;
+}
+.LeaderBoard{
+  text-align: center;
+}
+.Donate{
+  text-align: center;
 }
