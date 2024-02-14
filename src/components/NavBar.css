@@ -46,10 +46,24 @@ nav {
     font-family: 'Brush Script MT', cursive; /* Specify your cursive font */
     font-size: 50px; /* Adjust font size as needed */
     color: #48b9f2;
-    margin-left: 210px; /* Add margin for spacing between items */
+    margin-left: 5px; /* Add margin for spacing between items */
   }
   
   a:hover {
     color: #6df0f5; /* Change to your desired hover color */
     font-size: 110%;
+  }
+
+  .dropdown{
+    background-color: white;
+  }
+
+  .login{
+    font-size: 25px;
+    margin-left: 285px;
+  }
+
+  .hamburger-menu{
+    background-color: white;
+    margin-right: 10px;
   }

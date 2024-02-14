@@ -31,6 +31,9 @@
     font-size: 18px;
     cursor: pointer;
     z-index: 2; /* Add this line */
+    width: 35px; /* Adjust size as needed */
+    height: 35px; /* Adjust size as needed */
+    border-radius: 50%;
   }
   
   .faq-content {

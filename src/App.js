@@ -16,6 +16,7 @@ import PressInquiries from './components/PressInquiries';
 import './components/FAQ.css';
 import FAQ from './components/FAQ';
 import HowItWorks from './components/HowItWorks';
+import HamburgerMenu from './components/HamburgerMenu';
 
 const App = () => {
   const [showFAQ, setShowFAQ] = useState(false);
@@ -45,6 +46,7 @@ const App = () => {
         </Routes>
         <ProgressTracker goal={1000000} current={500000} />
         <Footer />
+        <div><HamburgerMenu /></div>
       </div>
       <div className="HowItWorks">
       <h3>HOW IT WORKS</h3>
