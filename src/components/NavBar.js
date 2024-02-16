@@ -17,7 +17,7 @@ const NavBar = ({ scrollToHowItWorks, toggleFAQ }) => {
           <img src={logoImage} alt="OceanGuardiansLogo" />
         </Link>
         <span className="cursive-text">#OceanGuardians</span>
-        <li className="login"><Link to="/login">Login</Link></li>
+        <li className="login"><Link to="/login">Sign Up/In</Link></li>
         <div className="hamburger-menu" onClick={toggleMenu}>
           <div className={`line ${isOpen ? 'open' : ''}`}></div>
           <div className={`line ${isOpen ? 'open' : ''}`}></div>

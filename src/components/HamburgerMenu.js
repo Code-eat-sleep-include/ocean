@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './HamburgerMenu.css'; // Import your CSS file
+import './HamburgerMenu.css';
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);

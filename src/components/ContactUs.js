@@ -1,5 +1,3 @@
-// ContactUs.js
-
 import React, { useState } from 'react';
 
 const ContactUs = () => {
@@ -17,9 +15,7 @@ const ContactUs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Form submitted:', formData);
-    // You can add additional logic to send the form data to a server or perform other actions.
   };
 
   return (

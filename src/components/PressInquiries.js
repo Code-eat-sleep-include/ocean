@@ -1,5 +1,3 @@
-// PressInquiries.js
-
 import React, { useState } from 'react';
 
 const PressInquiries = () => {
@@ -18,9 +16,7 @@ const PressInquiries = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
     console.log('Press Inquiry Form submitted:', formData);
-    // You can add additional logic to send the form data to a server or perform other actions.
   };
 
   return (

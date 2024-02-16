@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -36,12 +35,12 @@ const App = () => {
         <NavBar scrollToHowItWorks={scrollToHowItWorks} toggleFAQ={toggleFAQ}/>
         <Routes>
           <Route path="/" element={<ParallaxSection title="Aquatic Wildlife Awareness" imageUrl="nightsea.gif" />} />
-          <Route path="/login" element={<LoginForm />} />
+          <Route path="/login" element={<LoginForm title="" imageUrl="dolph.jpg"/>} />
           <Route path="/" element={<LandingPage />} />
           <Route path="/donate" element={<DonationSection />} />
           <Route path="/contact" element={<ContactUs/>}/>
           <Route path="/inquiries" element={<PressInquiries/>}/>
-          <Route path="/faq" element={<FAQ showFAQ={showFAQ} toggleFAQ={toggleFAQ} />} /> {/* Added the new Route for FAQ */}
+          <Route path="/faq" element={<FAQ showFAQ={showFAQ} toggleFAQ={toggleFAQ} />} /> {}
           <Route path="/how-it-works" element={<HowItWorks />} />
         </Routes>
         <ProgressTracker goal={1000000} current={500000} />

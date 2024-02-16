@@ -1,5 +1,3 @@
-// FAQ.js
-
 import React from 'react';
 
 const FAQ = ({ showFAQ, toggleFAQ }) => {
@@ -13,7 +11,7 @@ const FAQ = ({ showFAQ, toggleFAQ }) => {
         <div className="faq-content">
           <p>Q: What is the purpose of this website?</p>
           <p>A: This website provides information about...</p>
-          {/* Add more Q&A pairs as needed */}
+          {}
         </div>
       </div>
     </div>

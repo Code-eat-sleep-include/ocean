@@ -1,4 +1,3 @@
-// src/components/ProgressTracker.js
 import React from 'react';
 import './ProgressTracker.css';
 
@@ -15,5 +14,4 @@ const ProgressTracker = ({ goal, current }) => {
     </div>
   );
 };
-
 export default ProgressTracker;

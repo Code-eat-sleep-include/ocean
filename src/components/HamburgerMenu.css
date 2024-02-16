@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    width: 30px; /* Adjust the width to make the icon smaller */
-    height: 20px; /* Adjust the height to make the icon smaller */
+    width: 30px; 
+    height: 20px; 
   }
   
   .line {
@@ -14,7 +14,6 @@
     transition: transform 0.4s, opacity 0.4s;
   }
   
-  /* Styles for open state */
   .hamburger-menu.open .line:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
@@ -26,4 +25,3 @@
   .hamburger-menu.open .line:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
-  
