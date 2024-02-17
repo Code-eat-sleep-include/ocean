@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-right: 100;
+  text-align: center;
+}
+
+h4 {
+  color: rgb(114, 220, 241);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container-outer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.gallery-container {
+  width: 800px;
+}
+
+.span-text {
+  font-size: 16px;
+  padding: 6px 0;
+}
+
+.login-outer {
+  width: 310px;
+}
+
+label {
+  color: grey !important;
+}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
-import logoImage from './wave.jpg';
+import logoImage from '../assets/wave.jpg';
 
 const NavBar = ({ scrollToHowItWorks, toggleFAQ }) => {
   const [isOpen, setIsOpen] = useState(false);

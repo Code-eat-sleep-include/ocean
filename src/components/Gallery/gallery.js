@@ -1,8 +1,8 @@
 import React from 'react';
 import './gallery.css';
-import beachCleaningDrive from './beach cleaning drive.jpg';
-import beach2 from './beach 2.jpg';
-import beach3 from './beach 3.jpg';
+import beachCleaningDrive from '../assets/beach cleaning drive.jpg';
+import beach2 from '../assets/beach 2.jpg';
+import beach3 from '../assets/beach 3.jpg';
 
 class Gallery extends React.Component {
   render() {

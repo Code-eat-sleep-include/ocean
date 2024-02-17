@@ -2,22 +2,24 @@ import React from 'react';
 import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import NavBar from './components/NavBar';
-import ParallaxSection from './components/ParallaxSection';
-import LoginForm from './components/LoginForm';
-import LandingPage from './components/LandingPage';
-import DonationSection from './components/DonationSection';
-import ProgressTracker from './components/ProgressTracker';
-import Footer from './components/Footer';
+
+import NavBar from './components/Navbar/NavBar';
+import ParallaxSection from './components/Selection/ParallaxSection';
+import LoginForm from './components/LoginForm/LoginForm';
+import LandingPage from './components/LandingPage/LandingPage';
+import DonationSection from './components/DonationSection/DonationSection';
+import ProgressTracker from './components/ProgressTracker/ProgressTracker';
+import Footer from './components/Footer/Footer';
+import ContactUs from './components/ContactUs/ContactUs';
+import PressInquiries from './components/PressInquiries/PressInquiries';
+import FAQ from './components/FAQ/FAQ';
+import HowItWorks from './components/Selection/HowItWorks';
+import HamburgerMenu from './components/HamburgerMenu/HamburgerMenu';
+import UserPage from './components/UserPage/UserPage';
+import SignUpForm from './components/SignUpForm/SignUpForm';
+
 import './App.css';
-import ContactUs from './components/ContactUs';
-import PressInquiries from './components/PressInquiries';
-import './components/FAQ.css';
-import FAQ from './components/FAQ';
-import HowItWorks from './components/HowItWorks';
-import HamburgerMenu from './components/HamburgerMenu';
-import UserPage from './components/UserPage';
-import SignUpForm from './components/SignUpForm';
+import './components/FAQ/FAQ.css';
 
 const App = () => {
   const [showFAQ, setShowFAQ] = useState(false);
