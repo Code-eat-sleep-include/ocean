@@ -16,6 +16,8 @@ import './components/FAQ.css';
 import FAQ from './components/FAQ';
 import HowItWorks from './components/HowItWorks';
 import HamburgerMenu from './components/HamburgerMenu';
+import UserPage from './components/UserPage';
+import SignUpForm from './components/SignUpForm';
 
 const App = () => {
   const [showFAQ, setShowFAQ] = useState(false);
@@ -42,6 +44,8 @@ const App = () => {
           <Route path="/inquiries" element={<PressInquiries/>}/>
           <Route path="/faq" element={<FAQ showFAQ={showFAQ} toggleFAQ={toggleFAQ} />} /> {}
           <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/user" element={<UserPage />} />
+          <Route path="/signup" element={<SignUpForm />} />
         </Routes>
         <ProgressTracker goal={1000000} current={500000} />
         <Footer />

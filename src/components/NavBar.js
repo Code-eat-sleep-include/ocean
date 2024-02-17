@@ -23,7 +23,6 @@ const NavBar = ({ scrollToHowItWorks, toggleFAQ }) => {
           <div className={`line ${isOpen ? 'open' : ''}`}></div>
           <div className={`line ${isOpen ? 'open' : ''}`}></div>
         </div>
-        
         {isOpen && (
           <ul className="navbar-menu">
             <li><Link to="/shop">Shop</Link></li>

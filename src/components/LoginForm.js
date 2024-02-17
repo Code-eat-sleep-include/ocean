@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; 
 import './LoginForm.css';
 import dolphinImage from './dolph.jpg';
+import Gallery from './gallery';
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate(); 
 
-  const handleLogin = ({imageUrl}) => {
+  const handleLogin = () => {
     console.log(`Logging in with username: ${username} and password: ${password}`);
-    return(
-      <div id="dolphin-for-login" className="dolph" style={{ backgroundImage: `url(${imageUrl})` }}></div>
-    )
+    navigate('/user');
   };
+
   const backgroundImageStyle = {
-    backgroundImage: `url(${dolphinImage})`, // Use the imported image
+    backgroundImage: `url(${dolphinImage})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     minHeight: '100vh',
@@ -39,10 +40,12 @@ const LoginForm = () => {
           Password:
           <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
         </label>
-        <h4>Don't have an account? <Link to="/login">Sign Up</Link></h4>
+        <h4>Don't have an account? <Link to="/signup">Sign Up</Link></h4>
         <br />
         <button type="button" onClick={handleLogin}>Login</button>
       </form>
+      {}
+      <Gallery />
     </div>
   );
 };
