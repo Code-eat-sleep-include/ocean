@@ -9,8 +9,8 @@ const ContactSection = () => {
         <div className='map-container mx-5'>
           <iframe
             className='map-frame'
-            title="Google Maps"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619902.0054433027!2d-122.68851282163044!3d37.534535608111824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1507725785789"
+            title="Save the Oceans"
+            src="https://www.youtube.com/embed/PUBmSJrXfGs"
             data-aos="fade-left" data-aos-duration="3000"
           ></iframe>
         </div>
