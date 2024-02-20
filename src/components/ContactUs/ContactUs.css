@@ -1,10 +1,25 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
-<<<<<<< HEAD
-.outer-container {
-=======
+.form-container label{
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.outer-contact-us{
+    background-size:fill;
+    background-image: url('../assets/beach.jpg');
+    background-repeat: no-repeat;
+}
+
+.heading{
+    width: 100%;
+    text-align: center;
+    color: darkblue;
+    font-size: 32pt;
+    font-weight: bold;
+}
+
 .outer-container-contact-us {
->>>>>>> 78b225bb18429a9541611c2aa1d36f0e1f1f647c
   display: flex;
   flex-direction: row;
   justify-content: space-between;
