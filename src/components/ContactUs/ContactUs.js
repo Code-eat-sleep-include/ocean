@@ -16,7 +16,7 @@ const ContactSection = () => {
         </div>
         <div className='form-container mx-5'>
           <form>
-            <div class="mb-3">
+            <div class="my-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>
               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe"></input>
             </div>
@@ -28,7 +28,7 @@ const ContactSection = () => {
               <label for="exampleFormControlTextarea1" class="form-label">Message</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
-            <button className='btn btn-success'>Submit</button>
+            <button className='btn btn-success mb-4'>Submit</button>
           </form>
         </div>
       </div>
