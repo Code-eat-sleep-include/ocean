@@ -56,13 +56,13 @@ const NavBar = ({ scrollToHowItWorks, toggleFAQ }) => {
               <li className='nav-links mb-2'><Link className='nav-links' to="/shop">Shop</Link></li>
               <li className='nav-links mb-2'><Link className='nav-links' to="/contact">Contact Us</Link></li>
               <li className='nav-links mb-2'><Link className='nav-links' to="/inquiries">Press Inquiries</Link></li>
-              <li className='nav-links mb-2'><Link className='nav-links' to="/faq" onClick={toggleFAQ}>FAQ</Link></li>
+              <li className='nav-links mb-2'><Link className='nav-links' to="/faq" onClick={toggleFAQ} >FAQ</Link></li>
               <li className='nav-links mb-2'><Link className='nav-links' to="/leaderboard">Leaderboard</Link></li>
               <li className='nav-links mb-2'><Link className='nav-links' to="/how-it-works" onClick={scrollToHowItWorks}>How It Works</Link></li>
             </ul>
             <div className='outer-container mt-2'>
               <Link to="/login"><button className='btn btn-success'>Login</button></Link>
-              <Link to="/login"><button className='btn btn-primary'>Sign Up</button></Link>
+              <Link to="/signup"><button className='btn btn-primary'>Sign Up</button></Link>
             </div>
           </div>
         </div>

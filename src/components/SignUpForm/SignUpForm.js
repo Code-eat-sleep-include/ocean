@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom'; // Importing useNavigate
 import './SignUpForm.css'; // Assuming you have a CSS file for SignUpForm styling
+import sharkImage from '../assets/shark.jpg';
 
 const SignUpForm = () => {
   const [username, setUsername] = useState('');
@@ -14,23 +15,39 @@ const SignUpForm = () => {
     navigate('/login'); // Using navigate to redirect to login page
   };
 
+  const backgroundImageStyle={
+    backgroundImage: `url(${sharkImage})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    minHeight: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    color: '#ffffff',
+  };
+
   return (
-    <div className="sign-up-form">
-      <h1>Sign Up</h1>
-      <form>
-        <label>
-          Username:
-          <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-        </label>
-        <br />
-        <button type="button" onClick={handleSignUp}>Sign Up</button>
-      </form>
-      <p>Already have an account? <Link to="/login">Login</Link></p>
+    <div style={backgroundImageStyle}>
+      <div className="container">
+        <div className="sign-up-form">
+          <h1>Sign Up</h1>
+          <form>
+            <label>
+              Username:
+              <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"></input>
+            </label>
+            <br />
+            <label>
+              Create Password:
+              <input type="password" className="form-control" id="floatingPassword" placeholder="Password"></input>
+            </label>
+            <br />
+            <button type="button" onClick={handleSignUp}>Sign Up</button>
+          </form>
+          <p>Already have an account? <Link to="/login">Login</Link></p>
+        </div>
+      </div>  
     </div>
   );
 };

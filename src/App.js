@@ -38,7 +38,7 @@ const App = () => {
       <div>
         <NavBar scrollToHowItWorks={scrollToHowItWorks} toggleFAQ={toggleFAQ}/>
         <Routes>
-          <Route path="/" element={<ParallaxSection title="Aquatic Wildlife Awareness" imageUrl="nightsea.gif" />} />
+          <Route path="/" element={<ParallaxSection title="" imageUrl="nightsea.gif" />} />
           <Route path="/login" element={<LoginForm title="" imageUrl="dolph.jpg"/>} />
           <Route path="/" element={<LandingPage />} />
           <Route path="/donate" element={<DonationSection />} />

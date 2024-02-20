@@ -4,6 +4,7 @@ import HowItWorksParallax from './HowItWorksParallax';
 
 const ParallaxSection = ({ title, imageUrl }) => {
   return (
+    
     <div id="home-parallax-section" className="parallax-section" style={{ backgroundImage: `url(${imageUrl})` }}>
       <div className="parallax-content">
         <h2>{title}</h2>
