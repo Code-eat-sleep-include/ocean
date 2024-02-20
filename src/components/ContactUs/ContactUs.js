@@ -49,7 +49,11 @@ const ContactSection = () => {
 
     <div className='outer mt-5 p-5'>
       <div className='heading'>Contact Us</div>
+<<<<<<< HEAD
       <div className='outer-container'>
+=======
+      <div className='outer-container-contact-us'>
+>>>>>>> 78b225bb18429a9541611c2aa1d36f0e1f1f647c
         <div className='map-container mx-5'>
           <iframe
             className='map-frame'

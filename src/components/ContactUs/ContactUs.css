@@ -1,6 +1,10 @@
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
+<<<<<<< HEAD
 .outer-container {
+=======
+.outer-container-contact-us {
+>>>>>>> 78b225bb18429a9541611c2aa1d36f0e1f1f647c
   display: flex;
   flex-direction: row;
   justify-content: space-between;
