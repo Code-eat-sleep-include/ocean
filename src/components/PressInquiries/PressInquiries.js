@@ -2,13 +2,6 @@ import React, { useEffect } from 'react';
 import './PressInquiries.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'bootstrap';
-import blog3 from '../assets/blog3.jpg';
-import blog1 from '../assets/blog1.webp';
-import blog2 from '../assets/blog2.jpg';
-import blog4 from '../assets/blog4.jpg';
-import blog5 from '../assets/blog5.jpg';
-import blog6 from '../assets/blog6.jpg';
-
 import car1 from '../assets/car-1.jpg'
 import car2 from '../assets/car-2.jpg'
 import car3 from '../assets/car-3.jpg'
