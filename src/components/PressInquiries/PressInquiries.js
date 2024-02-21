@@ -1,4 +1,4 @@
-/*import React, { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './PressInquiries.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'bootstrap';
@@ -79,4 +79,3 @@ const PressInquiries = () => {
 };
 
 export default PressInquiries;
-*/
