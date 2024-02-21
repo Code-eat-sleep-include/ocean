@@ -9,6 +9,10 @@ import blog4 from '../assets/blog4.jpg';
 import blog5 from '../assets/blog5.jpg';
 import blog6 from '../assets/blog6.jpg';
 
+import car1 from '../assets/car-1.jpg'
+import car2 from '../assets/car-2.jpg'
+import car3 from '../assets/car-3.jpg'
+
 const PressInquiries = () => {
   useEffect(() => {
     const carouselElement = document.getElementById('carouselExampleAutoplaying');
@@ -24,7 +28,7 @@ const PressInquiries = () => {
     <div className='outer-press-inq mt-5 p-5'>
       <div className='title mb-5 mx-5'>Post Your Blog</div>
       <div className='outer-container-press-inq'>
-        <div className='blog-container mx-5'>
+        <div className='blog-container'>
           <form>
             <div class="my-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>
@@ -41,26 +45,17 @@ const PressInquiries = () => {
             <button className='btn btn-primary mb-4'>Post</button>
           </form>
         </div>
-        <div className='yt-container mx-5'>
+        <div className='yt-container'>
           <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src={blog3} className="d-block w-100" alt="..." />
+                <img src={car1} className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
-                <img src={blog1} className="d-block w-100" alt="..." />
+                <img src={car2} className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
-                <img src={blog2} className="d-block w-100" alt="..." />
-              </div>
-              <div className="carousel-item">
-                <img src={blog4} className="d-block w-100" alt="..." />
-              </div>
-              <div className="carousel-item">
-                <img src={blog5} className="d-block w-100" alt="..." />
-              </div>
-              <div className="carousel-item">
-                <img src={blog6} className="d-block w-100" alt="..." />
+                <img src={car3} className="d-block w-100" alt="..." />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

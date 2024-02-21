@@ -36,24 +36,24 @@ const App = () => {
   return (
     <Router>
       <div>
-        <NavBar scrollToHowItWorks={scrollToHowItWorks} toggleFAQ={toggleFAQ}/>
+        <NavBar scrollToHowItWorks={scrollToHowItWorks} toggleFAQ={toggleFAQ} />
         <Routes>
           <Route path="/" element={<ParallaxSection title="" imageUrl="nightsea.gif" />} />
-          <Route path="/login" element={<LoginForm title="" imageUrl="dolph.jpg"/>} />
+          <Route path="/login" element={<LoginForm title="" imageUrl="dolph.jpg" />} />
           <Route path="/" element={<LandingPage />} />
           <Route path="/donate" element={<DonationSection />} />
-          <Route path="/contact" element={<ContactUs/>}/>
-          <Route path="/inquiries" element={<PressInquiries/>}/>
-          <Route path="/faq" element={<FAQ showFAQ={showFAQ} toggleFAQ={toggleFAQ} />} /> {}
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/inquiries" element={<PressInquiries />} />
+          <Route path="/faq" element={<FAQ showFAQ={showFAQ} toggleFAQ={toggleFAQ} />} /> { }
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/user" element={<UserPage />} />
           <Route path="/signup" element={<SignUpForm />} />
         </Routes>
-        <ProgressTracker goal={1000000} current={500000} />
-        <Footer />
+        {/* <ProgressTracker goal={1000000} current={500000} /> */}
+        {/* <Footer /> */}
         <div><HamburgerMenu /></div>
       </div>
-      <div className="HowItWorks">
+      {/* <div className="HowItWorks">
       <h3>HOW IT WORKS</h3>
       </div>
       <div className="LeaderBoard">
@@ -61,7 +61,7 @@ const App = () => {
       </div>
       <div className="Donate">
       <h3>DONATE</h3>
-      </div>
+      </div> */}
     </Router>
   );
 };

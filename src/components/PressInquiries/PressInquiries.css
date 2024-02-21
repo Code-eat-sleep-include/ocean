@@ -1,44 +1,45 @@
-@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
-
-.blog-container label {
-  color: black !important;
-  font-weight: bold !important;
-}
-
-.outer-press-inq {
-  display: flex;
-  background-size: contain;
-  flex-direction: column;
-  align-items: center;
-  background-image: url('../assets/blog.webp');
-  background-repeat: no-repeat;
-}
-
-.title {
-  width: 100%;
-  text-align: center;
-  color: black;
-  font-size: 32pt;
-  font-weight: bold;
+.yt-container {
+  position: absolute;
+  top: 0;
+  left: -0px;
+  width: 100vw;
+  z-index: -1;
 }
 
 .outer-container-press-inq {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
+  justify-content: center;
 }
 
-.yt-frame {
-  height: 500px;
-  width: 600px;
-  border-radius: 20px;
+.blog-container {
+  height: 400px;
+  width: 500px !important;
 }
 
-.blog-container { 
+.yt-container button {
+  display: none;
+}
+
+.carousel-item {
+  height: 100vh !important;
+}
+
+.blog-container label {
+  color: #212121 !important;
+  font-weight: bolder;
+}
+
+.title {
+  text-align: center;
+  font-size: 32pt;
+  font-weight: bold;
+  color: dodgerblue;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-container {
   width: 100%;
-  background-color:rgba(255,255,255,0.275);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
