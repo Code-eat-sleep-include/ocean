@@ -13,7 +13,7 @@
   
   .sign-up-form h1 {
     text-align: center;
-    color: #eadada;
+    color: #eadada !important;
   }
   
   .sign-up-form form {
