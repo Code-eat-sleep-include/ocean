@@ -1,18 +1,18 @@
 .yt-container {
   position: absolute;
   top: 0;
-  left: -0px;
-  width: 100vw;
-  z-index: -1;
+  left: -0px !important;
+  width: 100vw !important;
+  z-index: -1 !important;
 }
 
 .outer-container-press-inq {
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 .blog-container {
-  height: 400px;
+  height: 420px !important;
   width: 500px !important;
 }
 
