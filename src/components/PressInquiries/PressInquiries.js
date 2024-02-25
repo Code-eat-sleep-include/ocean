@@ -21,7 +21,7 @@ const PressInquiries = () => {
     <div className='outer-press-inq mt-5 p-5'>
       <div className='title mb-5 mx-5'>Post Your Blog</div>
       <div className='outer-container-press-inq'>
-        <div className='blog-container'>
+        <div className='blog-container-main'>
           <form>
             <div class="my-3">
               <label for="exampleFormControlInput1" class="form-label">Name</label>

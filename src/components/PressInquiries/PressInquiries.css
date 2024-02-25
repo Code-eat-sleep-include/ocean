@@ -11,7 +11,7 @@
   justify-content: center !important;
 }
 
-.blog-container {
+.blog-container-main {
   height: 420px !important;
   width: 500px !important;
 }
@@ -24,7 +24,7 @@
   height: 100vh !important;
 }
 
-.blog-container label {
+.blog-container-main label {
   color: #212121 !important;
   font-weight: bolder;
 }
@@ -37,7 +37,7 @@
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.blog-container {
+.blog-container-main {
   width: 100%;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 20px;

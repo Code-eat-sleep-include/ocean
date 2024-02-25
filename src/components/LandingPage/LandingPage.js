@@ -4,9 +4,10 @@ import user1 from '../assets/user1.jpeg'
 
 const LandingPage = () => {
   return (
-    <div className="landing-page">
+    <div className="landing-page" id="lp">
       <h1>Save Our Oceans</h1>
-      <p>Join us in cleaning up the seas and protecting marine life.</p>
+      <p className='bolder'>Join us in cleaning up the seas and protecting marine life.</p>
+      <h2 className='vol mb-2'>Hear from our volunteers</h2>
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
