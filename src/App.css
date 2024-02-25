@@ -33,20 +33,83 @@
   background-attachment: fixed;
 }
 
+.home-page {
+  background: url("/public/nightsea.gif");
+  height: 100vw !important;
+  position: fixed;
+  width: 100vw;
+}
+
+.home-page-container {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+#how-it-works {
+  margin-top: 200px;
+  margin-left: 30vw;
+  width: 40vw;
+}
+
+.blog-container {
+  padding: 20px;
+  width: 50vw !important;
+  margin-left: 25vw;
+  display: flex;
+  align-items: center;
+}
+
+.user-container img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.user-img {
+  /* width: 40%; */
+
+}
+
+.user-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.blog-content {
+  width: 60% !important;
+}
+
+.carousel-inner,
+.carousel-item {
+  height: fit-content !important;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.HowItWorks{
+
+.HowItWorks {
   text-align: center;
 }
-.LeaderBoard{
+
+.LeaderBoard {
   text-align: center;
 }
-.Donate{
+
+.Donate {
   text-align: center;
+}
+
+.user-name {
+  text-align: center;
+  margin-top: 20px;
 }
