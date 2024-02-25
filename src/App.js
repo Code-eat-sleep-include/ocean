@@ -17,6 +17,8 @@ import HowItWorks from './components/Selection/HowItWorks';
 import HamburgerMenu from './components/HamburgerMenu/HamburgerMenu';
 import UserPage from './components/UserPage/UserPage';
 import SignUpForm from './components/SignUpForm/SignUpForm';
+import Shop from './components/Shop/Shop';
+import Leaderboard from './components/Leaderboard/Leaderboard';
 
 import './App.css';
 import './components/FAQ/FAQ.css';
@@ -52,6 +54,8 @@ const App = () => {
               <Route path="/how-it-works" element={<HowItWorks />} />
               <Route path="/user" element={<UserPage />} />
               <Route path="/signup" element={<SignUpForm />} />
+              <Route path="/shop" element={<Shop />} />
+              <Route path="/leaderboard" element={<Leaderboard />} />
             </Routes>
             {/* <ProgressTracker goal={1000000} current={500000} /> */}
             {/* <Footer /> */}
